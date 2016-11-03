@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Owl Carousel Demo</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>That Meal We Eat in the Mornings</h1>
+
+ <!-- carousel -->
+<div class="owl-carousel">
+  <div class="item"><img src="breakfast/pancakes.jpg"></div>
+  <div class="item"><img src="breakfast/waffles.jpg"></div>
+  <div class="item"><img src="breakfast/eggs.jpg"></div>
+  <div class="item"><img src="breakfast/bread.jpg"></div>
+  <div class="item"><img src="breakfast/cereal.jpg"></div>
+  <div class="item"><img src="breakfast/coffee.jpg"></div>
+  <div class="item"><img src="breakfast/fruit.jpg"></div>
+  <div class="item"><img src="breakfast/bagel.jpg"></div>
+</div>
+
+    <!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1
+      })
+     })
+    </script>
+  </body>
+</html>
